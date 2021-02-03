@@ -201,3 +201,10 @@ body {
     padding: 0;
     unicode-bidi: embed;
 }
+
+@media only screen and (max-width: 1075px) {
+    footer {
+        margin: 0 40px;
+        width: auto; 
+    }
+}
