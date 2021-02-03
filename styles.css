@@ -1,4 +1,9 @@
-/* margin left in left-box to adjust form to the right*/
+/* 1) margin left in left-box to adjust form to the right;
+2) can change gifs as well instead of using christmas gif,
+can also use this sparking dots/droplets gifs -> https://i.imgur.com/LLoz1n1.gif
+-> this one blends with the original facebook color #f0f2f5, tried & tested liao,
+anyway I added that sparking dots gif in my footer.
+*/
 
 .global-container {
     margin: 0 auto;
@@ -11,7 +16,7 @@
     padding-top: 72px;
     background: #f0f2f5;
     min-width: 500px;
-    background-image: url(https://i.imgur.com/LLoz1n1.gif);
+    background-image: url(https://i.pinimg.com/originals/b1/20/0e/b1200e864b641bef08815dd9305330bd.gif);
 }
 
 .big-box {
@@ -246,6 +251,7 @@ body {
 
 footer {
     text-align:justify;
+    background-image: url(https://i.imgur.com/LLoz1n1.gif);
 }
 
 .test {
