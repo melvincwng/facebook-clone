@@ -208,3 +208,31 @@ body {
         width: auto; 
     }
 }
+
+.list-items {
+    display: inline-block;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    color:darkgray;
+    font-size: 12px;
+}
+
+.list-items:hover {
+    color: darkgray;
+    text-decoration: underline;
+}
+
+.plus-button {
+    width: 25px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.fb-clone {
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    color:darkgray;
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+}
