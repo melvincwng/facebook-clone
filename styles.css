@@ -164,6 +164,28 @@ a:hover {
     text-decoration: underline;
 }
 
+.bottom-link-box{
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    margin-top: -12.5px;
+    margin-left: 150px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+}
+
+.bottom-link {
+    color:black;
+}
+
+.bottom-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 body {
     background: #fff;
     color: #1c1e21;
