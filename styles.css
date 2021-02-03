@@ -132,8 +132,10 @@
 }
 
 .adjust-forgot-pw {
-    margin-left: 115px;
+    margin-left: 107.5px;
     color: #1877f2;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
 }
 
 .form-container {
@@ -144,7 +146,7 @@
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     box-sizing: border-box;
     width: 397px;
-    height: 345px;
+    height: 350px;
     margin: 40px;
     padding: 10px;
     margin-left: 150px;
@@ -152,6 +154,10 @@
 
 .space {
     padding: 6px;
+}
+
+.adjust {
+    margin: 10px;
 }
 
 a {
