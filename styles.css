@@ -380,3 +380,10 @@ footer {
         height: fit-content;
     }
 }
+
+@media only screen and (max-width: 480px){
+    body {
+        width:fit-content;
+        height: fit-content;
+    }
+}
