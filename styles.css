@@ -241,6 +241,7 @@ footer {
     .bigger-box {
         padding-bottom: 170px;
         padding-top: 0px;
+        margin-top: -90px;
     }
 }
 
@@ -327,6 +328,7 @@ footer {
     .bottom-link-box {
         float: none;
         margin: 0 auto;
+        margin-top: 25px;
         height: 25px;
     }
 }
