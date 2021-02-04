@@ -1,9 +1,13 @@
 /* 1) margin left in left-box to adjust form to the right;
+
 2) can change gifs as well instead of using christmas gif,
 can also use this sparking dots/droplets gifs -> https://i.imgur.com/LLoz1n1.gif
 -> this one blends with the original facebook color #f0f2f5, tried & tested liao,
 anyway I added that sparking dots gif in my footer.
-*/
+
+3) Line 240 - 369 are codes to adjust for mobile responsivness in bigger phones and tablets
+
+4) Line 370 onwards are codes to adjust for mobile responsiveness in normal/smaller handphones. */
 
 .global-container {
     margin: 0 auto;
@@ -237,7 +241,8 @@ footer {
     margin-bottom: 0px;
 }
 
-@media only screen and (max-width: 900px) {
+/* Line 240 - 369 are codes to adjust for mobile responsivness in bigger phones and tablets */
+@media only screen and (max-width: 1075px) {
     .bigger-box {
         padding-bottom: 170px;
         padding-top: 0px;
@@ -245,7 +250,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1075px) {
     .big-box {
         display: flex;
         flex-direction: column;
@@ -359,5 +364,20 @@ footer {
     .fb-clone {
         margin-top: 10px;
         width: auto; 
+    }
+}
+
+/* Line 370 onwards are codes to adjust for mobile responsiveness in normal/smaller handphones. */
+@media only screen and (max-width: 480px){
+    .global-container {
+        width:fit-content;
+        height: fit-content;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .contains-top-half-and-footer-bottom-half {
+        width:fit-content;
+        height: fit-content;
     }
 }
