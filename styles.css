@@ -339,7 +339,8 @@ footer {
 
 @media only screen and (max-width: 1075px) {
     footer {
-        margin: 20px 40px;
+        margin: 20px;
+        margin-right: 55px;
         width: auto; 
     }
 }
