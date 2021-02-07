@@ -4,5 +4,3 @@ This project/lab exercise requires you to clone or rebuild any website of your c
 
 Website chosen: Facebook login page.
 
-**Website deployed at:** https://melvincwng.github.io/facebook-clone/
-
