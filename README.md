@@ -1,4 +1,4 @@
-# Project - Website Clone
+# Project - Facebook Website Clone
 This project requires you to clone or rebuild any website of your choice, using **only HTML and CSS**.
 
 Website chosen: **Facebook login page**.
