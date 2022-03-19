@@ -1,10 +1,10 @@
 # Project - Facebook Website Clone
-This project requires you to clone or rebuild any website of your choice, using **only HTML and CSS**.
+This project requires you to clone or rebuild any website of your choice, using **only HTML, CSS & JS**.
 
 Website chosen: **Facebook login page**.
 
 ## Languages:
-HTML & CSS only
+HTML, CSS & JS only
 
 ## Live Demo:
 https://facebook-clone-m.netlify.app/ 
