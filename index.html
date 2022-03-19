@@ -6,6 +6,8 @@
     <title>Facebook Clone - log in or sign up</title>
     <link rel="icon" href="https://cdn.iconscout.com/icon/free/png-512/facebook-social-media-fb-logo-square-44659.png">
     <link rel="stylesheet" href="styles.css">
+    <!-- To get the font-awesome CSS style sheet for the 'Eye Icon' located in the password field -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
     <div class="contains-top-half-and-footer-bottom-half">
@@ -25,7 +27,8 @@
                                     <input type="text" class="email-box" placeholder="Email address or phone number">
                                 </div>
                                 <div class="space">
-                                    <input type="password" class="pw-box" placeholder="Password">
+                                    <input type="password" class="pw-box" placeholder="Password" id="password_field">
+                                    <i class="far fa-eye-slash" id="toggleEyeIcon" style="cursor: pointer; display: none;"></i>
                                 </div>
                                 <div class="space">
                                     <button type="button" class="login-button" onclick="location.href='https://www.facebook.com/'"><b>Log In</b></button>
@@ -102,5 +105,8 @@
             </div>
         </footer>
     </div>
+
+    <!-- Script to toggle on & off the eye icon in the password field -->
+    <script src="./toggleEyeIcon.js"></script>
 </body>
 </html>
