@@ -83,6 +83,7 @@ anyway I added that sparking dots gif in my footer.
     line-height: 16px;
     vertical-align: middle;
 }
+
 .pw-box {
     border-radius: 6px;
     font-size: 17px;
@@ -93,6 +94,11 @@ anyway I added that sparking dots gif in my footer.
     height: 22px;
     line-height: 16px;
     vertical-align: middle;
+}
+
+.email-box:focus,
+.pw-box:focus {
+    outline: 1px solid #1877f2;
 }
 
 .login-button {
