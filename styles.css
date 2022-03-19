@@ -243,10 +243,16 @@ body {
 
 .fb-clone {
     font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
-    color: #8a8d91;;
+    color: #8a8d91;
     font-size: 11px;
     margin-left: 45px;
     margin-bottom: 16px;
+}
+
+.fb-clone-link {
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    color: #8a8d91;
+    font-size: 11px;
 }
 
 footer {
