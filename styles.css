@@ -66,7 +66,7 @@ anyway I added that sparking dots gif in my footer.
     width: 396px;
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     .right-box {
         float: right;
     }
@@ -128,6 +128,8 @@ anyway I added that sparking dots gif in my footer.
     background-color: #42b72a;
     color:white;
     margin-left: 90px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .create-button:hover {
@@ -139,7 +141,7 @@ anyway I added that sparking dots gif in my footer.
     align-items: center;
     border-bottom: 1px solid lightgray;
     display: flex;
-    margin: 20px 16px;
+    margin: 6px 16px 0px;
     text-align: center;
 }
 
@@ -158,7 +160,7 @@ anyway I added that sparking dots gif in my footer.
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     box-sizing: border-box;
     width: 397px;
-    height: 350px;
+    height: 338px;
     margin: 40px;
     padding: 10px;
     margin-left: 150px;
@@ -168,8 +170,16 @@ anyway I added that sparking dots gif in my footer.
     padding: 6px;
 }
 
+.spaceTwo {
+    padding: 0px 6px;
+}
+
 .adjust {
     margin: 10px;
+}
+
+.adjustTwo {
+    margin: 10px 10px 16px;
 }
 
 a {
@@ -266,7 +276,7 @@ footer {
 }
 
 /* Line 240 - 369 are codes to adjust for mobile responsivness in bigger phones and tablets */
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     .bigger-box {
         padding-bottom: 170px;
         padding-top: 0px;
@@ -274,7 +284,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     .big-box {
         display: flex;
         flex-direction: column;
@@ -282,7 +292,7 @@ footer {
     }
 } 
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     .big-box {
         height: 496px;
         margin: 0 40px;
@@ -290,14 +300,14 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     .left-box {
         margin: 0 auto;
         padding: 0;
     }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     .logo-caption {
         font-size: 24px;
         line-height: 28px;
@@ -307,7 +317,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     .right-box {
         float: none;
         margin: 0 auto;
@@ -315,14 +325,14 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     .form-container {
         float: none;
         margin: 0 auto;
     }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     .adjust{
         float: none;
         margin: 1 auto;
@@ -330,7 +340,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     .adjust-forgot-pw {
         float: none;
         margin: 0 auto;
@@ -338,22 +348,25 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
+    .spaceTwo {
+        margin-bottom: 16px;   
+    }
+
     .line {
         margin: 10px 8px;
     }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     .create-button {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-top: 22.5px;
     }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     .bottom-link-box {
         float: none;
         margin: 0 auto;
@@ -362,7 +375,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     footer {
         margin: 20px;
         margin-right: 55px;
@@ -370,14 +383,14 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     ul {
         margin: 0px;
         width: auto; 
     }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     .line-2 {
         margin: 7.5px;
         margin-left: 45px;
@@ -385,7 +398,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1125px) {
     .fb-clone {
         margin-top: 10px;
         width: auto; 
