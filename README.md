@@ -7,7 +7,7 @@ Website chosen: **Facebook login page**.
 HTML, CSS & JS only
 
 ## Live Demo:
-https://facebook-clone-m.netlify.app/ 
+https://melvincwng.netlify.app/
 
 ## Demo (static image):
 <img src="https://github.com/melvincwng/facebook-clone/blob/master/images/fbclone.JPG"/>
