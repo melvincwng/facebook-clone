@@ -7,8 +7,8 @@ Website chosen: **Facebook login page**.
 HTML, CSS & JS only
 
 ## Live Demo:
-- Opening this link in Google Chrome (normal mode) may result in an 'Incorrect Phishing Warning' being displayed by Google Safe Browsing.
-- Hence, please open link either using **Google Chrome (Incognito mode)** or **Other Browsers (e.g. Edge, IE, Firefox, Opera, Safari etc)** in order to view the webpage.
+- Opening the link below in Google Chrome (normal mode) may result in an 'Incorrect Phishing Warning' being displayed by Google Safe Browsing.
+- Hence, in order to view the webpage, please open the link either using **Google Chrome (Incognito mode)** or **Other Browsers (e.g. Edge, IE, Firefox, Opera, Safari etc)**.
 - https://fb8.netlify.app/
 
 
