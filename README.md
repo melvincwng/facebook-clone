@@ -7,7 +7,10 @@ Website chosen: **Facebook login page**.
 HTML, CSS & JS only
 
 ## Live Demo:
-https://fb5.netlify.app/
+- Opening this link in Google Chrome (normal mode) may result in an 'Incorrect Phishing Warning' being displayed by Google Safe Browsing.
+- Hence, please open link either using **Google Chrome (Incognito mode)** or **Other Browsers (e.g. Edge, IE, Firefox, Opera, Safari etc)** in order to view the webpage.
+- https://fb5.netlify.app/
+
 
 ## Demo (static image):
 <img src="https://github.com/melvincwng/facebook-clone/blob/master/images/fbclone.JPG"/>
