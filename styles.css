@@ -10,419 +10,418 @@ anyway I added that sparking dots gif in my footer.
 4) Line 370 onwards are codes to adjust for mobile responsiveness in normal/smaller handphones. */
 
 .global-container {
-    margin: 0 auto;
-    position: relative;
+  margin: 0 auto;
+  position: relative;
 }
 
 .bigger-box {
-    padding-bottom: 112px;
-    padding-top: 72px;
-    background: #f0f2f5;
-    min-width: 500px;
-    background-image: url(https://i.pinimg.com/originals/b1/20/0e/b1200e864b641bef08815dd9305330bd.gif);
+  padding-bottom: 112px;
+  padding-top: 72px;
+  background: rbg(241, 243, 246);
+  min-width: 500px;
+  background-image: url(https://i.pinimg.com/originals/b1/20/0e/b1200e864b641bef08815dd9305330bd.gif);
 }
 
 .big-box {
-    padding: 20px 0;
-    position: relative;
+  padding: 20px 0;
+  position: relative;
 }
 
 .left-box {
-    width: 400px;
-    box-sizing: border-box;
-    margin-left: 150px;
-    margin-right: 20px;
-    padding-right: 32px;
-    display: inline-block;
-    vertical-align: top;
+  width: 400px;
+  box-sizing: border-box;
+  margin-left: 150px;
+  margin-right: 20px;
+  padding-right: 32px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .image-box {
-    padding: 112px 0 16px;
+  padding: 112px 0 16px;
 }
 
-.fb-logo{
-    height: 106px;
-    margin: -28px;
-    border: 0;
+.fb-logo {
+  height: 106px;
+  margin: -28px;
+  border: 0;
 }
 
 .logo-caption {
-    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    font-size: 28px;
-    font-weight: normal;
-    line-height: 28px;
-    width: 490px;
-    padding: 0 0 20px;
-    display: inline-block;
-    letter-spacing: normal;
-    margin: 0px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 28px;
+  width: 490px;
+  padding: 0 0 20px;
+  display: inline-block;
+  letter-spacing: normal;
+  margin: 0px;
 }
 
 .right-box {
-    display: inline-block;
-    vertical-align: top;
-    height: 456px;
-    width: 396px;
+  display: inline-block;
+  vertical-align: top;
+  height: 456px;
+  width: 396px;
 }
 
 @media only screen and (max-width: 1125px) {
-    .right-box {
-        float: right;
-    }
+  .right-box {
+    float: right;
+  }
 }
 
 .email-box {
-    border-radius: 6px;
-    font-size: 17px;
-    padding: 14px 16px;
-    width: 330px;
-    background: #FFFFFF;
-    border: 1px solid lightgray;
-    height: 22px;
-    line-height: 16px;
-    vertical-align: middle;
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  background: white;
+  border: 1px solid lightgray;
+  height: 22px;
+  line-height: 16px;
+  vertical-align: middle;
 }
 
 .pw-box {
-    border-radius: 6px;
-    font-size: 17px;
-    padding: 14px 16px;
-    width: 330px;
-    background: #FFFFFF;
-    border: 1px solid lightgray;
-    height: 22px;
-    line-height: 16px;
-    vertical-align: middle;
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  background: white;
+  border: 1px solid lightgray;
+  height: 22px;
+  line-height: 16px;
+  vertical-align: middle;
 }
 
 .email-box:focus,
 .pw-box:focus {
-    outline: 1px solid #1877f2;
-    outline-offset: -2px;
+  outline: 1px solid rgb(25, 120, 243);
+  outline-offset: -2px;
 }
 
 .login-button {
-    background-color: #1877f2;
-    border: none;
-    border-radius: 6px;
-    font-size: 20px;
-    color: white;
-    line-height: 48px;
-    padding: 0 16px;
-    width: 364px;
-    vertical-align: middle;
+  background-color: rgb(25, 120, 243);
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  color: white;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 364px;
+  vertical-align: middle;
 }
 
 .login-button:hover {
-    background-color: #166fe5;
-    cursor: pointer;
+  background-color: rgb(23, 112, 230);
+  cursor: pointer;
 }
-  
+
 .create-button {
-    border: none;
-    border-radius: 6px;
-    font-size: 17px;
-    line-height: 48px;
-    padding: 0 16px;
-    background-color: #42b72a;
-    color:white;
-    margin-left: 90px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  background-color: rgb(67, 184, 43);
+  color: white;
+  margin-left: 90px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .create-button:hover {
-    background-color: #36a420;
-    cursor: pointer;
+  background-color: rgb(55, 165, 33);
+  cursor: pointer;
 }
 
 .line {
-    align-items: center;
-    border-bottom: 1px solid lightgray;
-    display: flex;
-    margin: 6px 16px 0px;
-    text-align: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  margin: 6px 16px 0px;
+  text-align: center;
 }
 
 .adjust-forgot-pw {
-    margin-left: 107.5px;
-    color: #1877f2;
-    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+  margin-left: 107.5px;
+  color: rgb(25, 120, 243);
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 
 .form-container {
-    align-items: center;
-    background-color: white;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-    box-sizing: border-box;
-    width: 397px;
-    height: 345px;
-    margin: 40px;
-    padding: 10px;
-    margin-left: 150px;
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  width: 397px;
+  height: 345px;
+  margin: 40px;
+  padding: 10px;
+  margin-left: 150px;
 }
 
 .space {
-    padding: 6px;
+  padding: 6px;
 }
 
 .spaceTwo {
-    padding: 0px 6px;
+  padding: 0px 6px;
 }
 
 .adjust {
-    margin: 10px;
+  margin: 10px;
 }
 
 .adjustTwo {
-    margin: 10px 10px 16px;
+  margin: 10px 10px 16px;
 }
 
 a {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
-    color:  #1877f2;
-    text-decoration: underline;
+  color: rgb(25, 120, 243);
+  text-decoration: underline;
 }
 
-.bottom-link-box{
-    color: #1c1e21;
-    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    padding-top: 0;
-    margin-top: -12.5px;
-    margin-left: 150px;
-    text-align: center;
-    width: 400px;
-    height: 100px;
+.bottom-link-box {
+  color: #1c1e21;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 0;
+  margin-top: -12.5px;
+  margin-left: 150px;
+  text-align: center;
+  width: 400px;
+  height: 100px;
 }
 
 .bottom-link {
-    color:black;
+  color: black;
 }
 
 .bottom-link:hover {
-    color: black;
-    text-decoration: underline;
+  color: black;
+  text-decoration: underline;
 }
 
 body {
-    background: #fff;
-    color: #1c1e21;
-    direction: ltr;
-    line-height: 1.34;
-    margin: 0;
-    padding: 0;
-    unicode-bidi: embed;
+  background: #fff;
+  color: rgb(27, 29, 32);
+  direction: ltr;
+  line-height: 1.34;
+  margin: 0;
+  padding: 0;
+  unicode-bidi: embed;
 }
 
 .list-items {
-    display: inline-block;
-    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
-    color:#8a8d91;;
-    font-size: 12px;
-    margin: 2.5px;
+  display: inline-block;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  color: rgb(138, 141, 145);
+  font-size: 12px;
+  margin: 2.5px;
 }
 
 .list-items:hover {
-    color: #8a8d91;;
-    text-decoration: underline;
+  color: rgb(138, 141, 145);
+  text-decoration: underline;
 }
 
 .plus-button {
-    width: 25px;
-    font-weight: bold;
-    font-size: 10px;
+  width: 25px;
+  font-weight: bold;
+  font-size: 10px;
 }
 
 .line-2 {
-    align-items: center;
-    border-bottom: 1px solid lightgray;
-    display: flex;
-    margin: 20px 16px;
-    text-align: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  margin: 20px 16px;
+  text-align: center;
 }
 
 .fb-clone {
-    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
-    color: #8a8d91;
-    font-size: 11px;
-    margin-left: 45px;
-    margin-bottom: 16px;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  color: rgb(138, 141, 145);
+  font-size: 11px;
+  margin-left: 45px;
+  margin-bottom: 16px;
 }
 
 .fb-clone-link {
-    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
-    color: #8a8d91;
-    font-size: 11px;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  color: rgb(138, 141, 145);
+  font-size: 11px;
 }
 
 footer {
-    text-align:justify;
-    background-image: url(https://i.imgur.com/LLoz1n1.gif);
+  text-align: justify;
+  background-image: url(https://i.imgur.com/LLoz1n1.gif);
 }
 
 .test {
-    margin-top: 0px;
-    margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Line 240 - 369 are codes to adjust for mobile responsivness in bigger phones and tablets */
 @media only screen and (max-width: 1125px) {
-    .bigger-box {
-        padding-bottom: 170px;
-        padding-top: 0px;
-        margin-top: -90px;
-    }
+  .bigger-box {
+    padding-bottom: 170px;
+    padding-top: 0px;
+    margin-top: -90px;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    .big-box {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-} 
-
-@media only screen and (max-width: 1125px) {
-    .big-box {
-        height: 496px;
-        margin: 0 40px;
-        width: auto;
-    }
+  .big-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    .left-box {
-        margin: 0 auto;
-        padding: 0;
-    }
+  .big-box {
+    height: 496px;
+    margin: 0 40px;
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    .logo-caption {
-        font-size: 24px;
-        line-height: 28px;
-        width: auto;
-        padding: 0;
-
-    }
+  .left-box {
+    margin: 0 auto;
+    padding: 0;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    .right-box {
-        float: none;
-        margin: 0 auto;
-        padding: 40px;
-    }
+  .logo-caption {
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+    padding: 0;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    .form-container {
-        float: none;
-        margin: 0 auto;
-    }
+  .right-box {
+    float: none;
+    margin: 0 auto;
+    padding: 40px;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    .adjust{
-        float: none;
-        margin: 1 auto;
-        height: 25px;
-    }
+  .form-container {
+    float: none;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    .adjust-forgot-pw {
-        float: none;
-        margin: 0 auto;
-        height: 25px;
-    }
+  .adjust {
+    float: none;
+    margin: 1 auto;
+    height: 25px;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    .spaceTwo {
-        margin-bottom: 16px;   
-    }
-
-    .line {
-        margin: 10px 8px;
-    }
+  .adjust-forgot-pw {
+    float: none;
+    margin: 0 auto;
+    height: 25px;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    .create-button {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
+  .spaceTwo {
+    margin-bottom: 16px;
+  }
+
+  .line {
+    margin: 10px 8px;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    .bottom-link-box {
-        float: none;
-        margin: 0 auto;
-        margin-top: 25px;
-        height: 25px;
-    }
+  .create-button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    footer {
-        margin: 20px;
-        margin-right: 55px;
-        width: auto; 
-    }
+  .bottom-link-box {
+    float: none;
+    margin: 0 auto;
+    margin-top: 25px;
+    height: 25px;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    ul {
-        margin: 0px;
-        width: auto; 
-    }
+  footer {
+    margin: 20px;
+    margin-right: 55px;
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    .line-2 {
-        margin: 7.5px;
-        margin-left: 45px;
-        width: auto; 
-    }
+  ul {
+    margin: 0px;
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
-    .fb-clone {
-        margin-top: 10px;
-        width: auto; 
-    }
+  .line-2 {
+    margin: 7.5px;
+    margin-left: 45px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 1125px) {
+  .fb-clone {
+    margin-top: 10px;
+    width: auto;
+  }
 }
 
 /* Line 370 onwards are codes to adjust for mobile responsiveness in normal/smaller handphones. */
-@media only screen and (max-width: 480px){
-    .global-container {
-        width:fit-content;
-        height: fit-content;
-    }
+@media only screen and (max-width: 480px) {
+  .global-container {
+    width: fit-content;
+    height: fit-content;
+  }
 }
 
-@media only screen and (max-width: 480px){
-    .contains-top-half-and-footer-bottom-half {
-        width:fit-content;
-        height: fit-content;
-    }
+@media only screen and (max-width: 480px) {
+  .contains-top-half-and-footer-bottom-half {
+    width: fit-content;
+    height: fit-content;
+  }
 }
 
-@media only screen and (max-width: 480px){
-    body {
-        width:fit-content;
-        height: fit-content;
-    }
+@media only screen and (max-width: 480px) {
+  body {
+    width: fit-content;
+    height: fit-content;
+  }
 }
