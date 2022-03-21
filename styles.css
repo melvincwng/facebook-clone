@@ -14,12 +14,17 @@ anyway I added that sparking dots gif in my footer.
   position: relative;
 }
 
+/*
+  Most of the background images --> spring.gif, summer.gif, autumn.gif are resized to 1262px based on my findings/measurements using http://gifgifs.com/resizer/ 
+  Only winter.gif is using the original dimensions 1000px (width) as downloaded.
+*/
+
 .bigger-box {
   padding-bottom: 112px;
   padding-top: 72px;
-  background: rbg(241, 243, 246);
+  background: rgb(241, 243, 246);
   min-width: 500px;
-  background-image: url(https://i.pinimg.com/originals/b1/20/0e/b1200e864b641bef08815dd9305330bd.gif);
+  background-image: url(./images/winter.gif);
 }
 
 .big-box {
