@@ -11,4 +11,4 @@ function changeBackgroundImage() {
   backgroundImageElement.style.backgroundImage = `url(${arrayOfBackgroundImagePaths[randomNumberGenerated]})`;
 }
 
-//changeBackgroundImage();
+changeBackgroundImage();

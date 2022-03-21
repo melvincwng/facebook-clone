@@ -17,6 +17,7 @@ anyway I added that sparking dots gif in my footer.
 /*
   Most of the background images --> spring.gif, summer.gif, autumn.gif are resized to 1262px based on my findings/measurements using http://gifgifs.com/resizer/ 
   Only winter.gif is using the original dimensions 1000px (width) as downloaded.
+  Commented out the default background-image --> because if we have a default bg image --> it will load first (CSS loads first) --> Then JS file loads to change to something else --> Can be seen as intermittent switch in UI --> Not very pleasant
 */
 
 .bigger-box {
@@ -24,7 +25,7 @@ anyway I added that sparking dots gif in my footer.
   padding-top: 72px;
   background: rgb(241, 243, 246);
   min-width: 500px;
-  background-image: url(./images/winter.gif);
+  /* background-image: url(./images/winter.gif); */
 }
 
 .big-box {
