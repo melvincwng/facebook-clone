@@ -8,7 +8,7 @@ HTML, CSS & JS only
 
 ## Live Demo:
 - Opening the link below in Google Chrome may result in an incorrect phishing warning being displayed by Google Safe Browsing.
-- Hence, in order to view the webpage, please open the link either using **Other Browsers (e.g. Edge, IE, Firefox, Opera, Safari etc)**.
+- Hence, in order to view the webpage, please open the link using **Other Browsers (e.g. Edge, IE, Firefox, Opera, Safari etc)**.
 - https://fb8.netlify.app/
 
 
