@@ -28,6 +28,9 @@ anyway I added that sparking dots gif in my footer.
 }
 
 .big-box {
+  display: block;
+  width: 1275px;
+  margin: 0 auto;
   padding: 20px 0;
   position: relative;
 }
@@ -273,9 +276,12 @@ body {
 footer {
   text-align: justify;
   background-image: url(https://i.imgur.com/LLoz1n1.gif);
+  display: block;
+  width: 1275px;
+  margin: 0 auto;
 }
 
-.test {
+.reduce-margin {
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -287,72 +293,51 @@ footer {
     padding-top: 0px;
     margin-top: -90px;
   }
-}
 
-@media only screen and (max-width: 1125px) {
   .big-box {
     display: flex;
     flex-direction: column;
     text-align: center;
-  }
-}
-
-@media only screen and (max-width: 1125px) {
-  .big-box {
     height: 496px;
     margin: 0 40px;
     width: auto;
   }
-}
 
-@media only screen and (max-width: 1125px) {
   .left-box {
     margin: 0 auto;
     padding: 0;
   }
-}
 
-@media only screen and (max-width: 1125px) {
   .logo-caption {
     font-size: 24px;
     line-height: 28px;
     width: auto;
     padding: 0;
   }
-}
 
-@media only screen and (max-width: 1125px) {
   .right-box {
     float: none;
     margin: 0 auto;
     padding: 40px;
   }
-}
 
-@media only screen and (max-width: 1125px) {
   .form-container {
     float: none;
     margin: 0 auto;
   }
-}
 
-@media only screen and (max-width: 1125px) {
   .adjust {
     float: none;
     margin: 1 auto;
     height: 25px;
   }
-}
 
-@media only screen and (max-width: 1125px) {
   .adjust-forgot-pw {
     float: none;
     margin: 0 auto;
     height: 25px;
   }
-}
 
-@media only screen and (max-width: 1125px) {
   .spaceTwo {
     margin-bottom: 16px;
   }
@@ -360,49 +345,37 @@ footer {
   .line {
     margin: 10px 8px;
   }
-}
 
-@media only screen and (max-width: 1125px) {
   .create-button {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-}
 
-@media only screen and (max-width: 1125px) {
   .bottom-link-box {
     float: none;
     margin: 0 auto;
     margin-top: 25px;
     height: 25px;
   }
-}
 
-@media only screen and (max-width: 1125px) {
   footer {
     margin: 20px;
     margin-right: 55px;
     width: auto;
   }
-}
 
-@media only screen and (max-width: 1125px) {
   ul {
     margin: 0px;
     width: auto;
   }
-}
 
-@media only screen and (max-width: 1125px) {
   .line-2 {
     margin: 7.5px;
     margin-left: 45px;
     width: auto;
   }
-}
 
-@media only screen and (max-width: 1125px) {
   .fb-clone {
     margin-top: 10px;
     width: auto;
@@ -415,16 +388,12 @@ footer {
     width: fit-content;
     height: fit-content;
   }
-}
 
-@media only screen and (max-width: 480px) {
   .contains-top-half-and-footer-bottom-half {
     width: fit-content;
     height: fit-content;
   }
-}
 
-@media only screen and (max-width: 480px) {
   body {
     width: fit-content;
     height: fit-content;
