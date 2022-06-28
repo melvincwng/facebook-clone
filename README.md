@@ -18,7 +18,7 @@ https://fb8.netlify.app/
 ## Extras:
 There are **4** animated background images available **(spring, summer, autumn, winter)**. One of them will be randomly chosen when you load the webpage. Which one will you get 😉?
 
-Please also take note when visiting the website, Google Search Console may mistakenly flag a warning page on your screen due to it's highh resemblance with the actual Facebook login page. 
+Please also take note when visiting the website, Google Search Console may mistakenly flag a warning page on your screen due to it's high resemblance with the actual Facebook login page. 
 
 To get to the actual website from the warning page, simply click 'Details' > 'Visit this unsafe site'.
 
