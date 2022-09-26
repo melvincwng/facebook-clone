@@ -11,7 +11,7 @@ HTML, CSS & JS only
 2. Open in VSCode
 3. Click on the 'index.html' file
 4. Right click and select 'Open in Default Browser'
-5. These instructions are for VSCode IDE. If using other IDEs, please google & check how to open html files in those IDEs
+5. These instructions are only for VSCode IDE. If using other IDEs, please check how to open html files in those respective IDEs
 
 ## Demo (static image):
 <img src="https://github.com/melvincwng/facebook-clone/blob/master/images/fbclone.JPG"/>
