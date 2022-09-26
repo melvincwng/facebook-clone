@@ -6,8 +6,12 @@ Website chosen: **Facebook login page**.
 ## Languages:
 HTML, CSS & JS only
 
-## Live Demo:
-https://fb8.netlify.app/
+## How to access the webpage:
+1. Clone the repository
+2. Open in VSCode
+3. Click on the 'index.html' file
+4. Right click and select 'Open in Default Browser'
+5. These instructions are for VSCode IDE. If using other IDEs, please google & check how to open html files in those IDEs
 
 ## Demo (static image):
 <img src="https://github.com/melvincwng/facebook-clone/blob/master/images/fbclone.JPG"/>
@@ -17,11 +21,3 @@ https://fb8.netlify.app/
 
 ## Extras:
 There are **4** animated background images available **(spring, summer, autumn, winter)**. One of them will be randomly chosen when you load the webpage. Which one will you get 😉?
-
-Please also take note when visiting the website, Google Search Console may **mistakenly** flag a warning page on your screen due to it's high resemblance with the actual Facebook login page. 
-
-To get to the actual website from the warning page, simply click **'Details'** > **'Visit this unsafe site'**.
-
-Please be assured that this is a **safe** website - it's a pure frontend webpage that I've included as one of my portfolio projects. That's it - no server/database backend logic, entirely frontend code only ^^.
-
-
